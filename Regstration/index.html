@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Sign up form</title>
+</head>
+
+<body>
+
+    <h1 class="header">Sign Up</h1>
+    <form method="post" action="/Second page/index.html" id="first-container" autocomplete="off">
+
+        <div class="form">
+            <label for="firstname"></label>
+            <input type="text" name="firstname" class="firstname" placeholder="FirstName" required>
+            <label for="lastname"></label>
+            <input type="text" name="lastname" class="lastname" placeholder="lastName" required>
+
+
+        </div>
+        <div class="mail">
+            <label for="Email"></label>
+            <input type="email" name="Email" class="Email" placeholder="Email ID" required>
+        </div>
+        <div class="tel"><label for="tel"></label>
+            <input type="tel" name="tel" class="tel" placeholder="Moblie Number" required>
+        </div>
+        <div class="pWd">
+            <label for="pwd"></label>
+            <input type="password" name="pwd" class="pwd" placeholder="Password" required>
+            <label for="cpwd"></label>
+            <input type="password" name="cpwd" class="cpwd" placeholder="Confirm Pasword" required>
+        </div>
+        <div class="dob">
+            <label for="dob"></label>
+            <input type="date" name="dob" class="dob">
+        </div>
+        <div class="gender">
+            <form>
+                <input type="radio" id="gender" name="gender" value="male" /><label>Male</label>
+
+                <input type="radio" id="gender" name="gender" value="female" /> <label>Female</label>
+            </form>
+
+        </div>
+        <div class="button">
+
+            <input type="submit" value="Submit" class="btn" autocomplete="off" onclick="myfunction()" />
+
+        </div>
+
+
+    </form>
+
+</body>
+<script src="/app.js">
+</script>
+
+</html>
